@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Montserrat' , sans-serif;
+}
+
+.bgimage{
+	background-image: url('../image/gd.jpg');
+	background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+}
+.menu{
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+.leftmenu{
+	width: 25%;
+	line-height: 100px;
+	float: left;
+	/*background-color: orange;*/
+}
+.leftmenu h4{
+	padding-left: 70px;
+	font-weight: bold;
+	color: white;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif;
+}
+.rightmenu{
+	width: 75%;
+	height: 100px;
+	float: right;
+	/*background-color: green;*/
+}
+.rightmenu ul{
+	margin-left: 500px;
+}
+.rightmenu ul li  {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 17px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+#firstlist{
+	color: orange;
+}
+.rightmenu ul li :hover{
+	color: orange;
+}
+.text{
+	width: 100%;
+	margin-top: 300px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+.text h4{
+	font-size: 14px;
+	font-family: 'Open Sans',sans-serif;
+}
+.text h1{
+	font-size: 62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin: 14px 0px;
+}
+.text h3{
+	font-size: 12px;
+	font-family: 'Open Sans',sans-serif;
+}
+#buttonone{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+#buttontwo{
+	background-color: transparent;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
+.Skills-bar
+ {
+ 	
+ 	font-family: 'Montserrat', sans-serif;
+ 	background-color: #bdc9ea;
+ 	border-radius: 25px;
+ }
+ .progress-bar
+ {
+ 	font-family: 'Montserrat', sans-serif;
+ 	padding: 0.5em 16px;
+ 	border-radius: 25px;
+ 	text-align: center;
+ 	color: #fff;
+ 	background-color: #4b4fe2;
+ }
+
+.leftmenu h4 {
+	padding: 10px;
+	margin: 20px
+}
+h1{
+ text-align: center;
+ color: white;
+ font-family: 'Dokdo', cursive;
+}
+.contact-form
+{
+	width: 75%;
+	max-width: 500px;
+	background:#f1f1f1;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact-form h1
+{
+	color: black;
+	margin-top: 0;
+	font-weight: 200;
+}
+.txtb
+{
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+.txtb label
+{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.txtb input,.txtb textarea
+{
+	width: 100%;
+	border: none;
+	background:none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+.btn
+{
+	display: inline-block;
+	background:#9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+	line-height: 40px;
+}
+.main-container p i 
+{
+	list-style: none;
+	font-size: 50px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 100px;
+    text-transform: uppercase;	
+}
+.container .row .col-sm-7 h2{
+	color:green;
+}
+
+
+.container .row .col-sm-7 p{
+	color: white;
+}
+{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#Aboutme h2
+{
+	margin-bottom: 25px;
+}
+.img-wrap
+{
+	width: 100%;
+}
+.img-wrap img 
+{
+	width: 100%;
+	padding: 10px;
+	border-radius: 50%;
+	box-shadow: 0 0 10px #999999;
+}
+.rightmenu a{
+	color: white;
+}
+.skill h3{
+	color: white;
+}
+
+}
+.main img{
+	justify-content: space-between;
+	padding: 10px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
